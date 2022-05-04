@@ -10,4 +10,4 @@
 #### Agenda: Οντότητα που περιγράφη το ημερολόγιο της εταιρίας και περιέχει όλα τα ραντεβού (agenda) και έχει τις μεταβλητές ώρες εργασίας (working hours) και ώρες αχμής (busy hours)
 #### State: Είναι η κατάσταση που βρίσκεται κάθε εργασία (operation) με id = operationId και έχει τις μεταβλητές αναμενόμενος χρόνος (estimated time), περιγραφή (description) και πρόοδος (progress). Κάθε κατάσταση αντιστοιχεί σε μια μοναδική εργασία
 
-![alt text](https://drive.google.com/uc?id=1_82-NG2_3F43O_Hw7U0vcbLhEY8IIU5b&export=download)
+![alt text](https://github.com/Sifdone/SoftEng-Project-2022-AutoSupport/blob/main/domainmodelDiagram.png?raw=true)
