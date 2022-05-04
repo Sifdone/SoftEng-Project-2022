@@ -57,7 +57,7 @@
   4. Το συστημα εμφανιζει περισσότερες πληροφορίες καθώς την επιλογή “Download Invoice”.
   5. Ο χρηστης επιλεγει "Download Invoice"
   6. Ο χρηστης επιλεγει που θελει να αποθηκευσει την αποδειξη  
-  <img src="https://user-images.githubusercontent.com/51947061/166664391-42264d51-4b22-4990-83f3-26ed935ee368.png" width="300"/><img src="https://user-images.githubusercontent.com/51947061/166664404-77bcd9d4-b875-4eb7-aa19-cfe8c8e63d89.png" width="300"/>
+  <img src="https://user-images.githubusercontent.com/51947061/166664391-42264d51-4b22-4990-83f3-26ed935ee368.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166664404-77bcd9d4-b875-4eb7-aa19-cfe8c8e63d89.png" width="300"/>
 
 ### Use case #4 - Schedule Repair
 >Το οχημα του χρηστη δεν βρισκεται για επισκευη
@@ -72,6 +72,8 @@
   6. Ο χρήστης οδηγείται στην οθόνη επικύρωσης του ραντεβού και επικυρωνει
   7. Το σύστημα ενημερώνεται για το ραντεβού και ενημερώνει αντιστοίχως και τη διαθεσιμότητα.
   8. Η εφαρμογή του συνεργείου ειδοποιείται σχετικά με το ραντεβού και αποστέλλεται email ενημέρωσης στον χρήστη.
+ <img src="https://user-images.githubusercontent.com/51947061/166802545-b7cba3f1-ace7-4903-bcbb-180079d0aad4.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166802573-16bd3464-5477-4ffc-9207-12b90d5ed519.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166802595-731841a1-a604-4146-9966-66581d44c5e0.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166802618-41fa29f6-e04f-493b-a95c-1317719616ea.png" width="300"/>
+
 
 * Εναλλακτική Ροή 1 - Επιλογη διαφορετικου μηνα
   1. Μετα το 4 της Βασικης ροης ο χρηστης επιλεγει διαφορετικο μηνα
@@ -103,7 +105,8 @@
   * Εναλλακτική Ροή 4 - Ο χρηστης επιλεγει "Repair Progress" ενος οχηματος που βρισκεται υπο επισκευη
     1. Η εφαρμογη ενημερωνεται απο το συστημα και εμφανιζει αναλυτικες πληροφοριες για την επισκευη του οχηματος.
     2. Ο χρηστης επιλεγει “Update Progress”
-    3. Οδηγειται στο Use Case #7
+    3. Οδηγειται στο Use Case #7  
+    <img src="https://user-images.githubusercontent.com/51947061/166803558-1bdacf4a-523b-4b94-9e80-163ad0f30e88.png" width="600"/>
 
 
 ### Use case #6 - Add new Car/Client
