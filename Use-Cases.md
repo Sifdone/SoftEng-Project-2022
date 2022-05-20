@@ -90,7 +90,7 @@
   5. Ο χρήστης επιλέγει ημερομηνία από τις διαθέσιμες και επιλεγει "Schedule"
   6. Ο χρήστης οδηγείται στην οθόνη επικύρωσης του ραντεβού και επικυρωνει
   7. Το σύστημα ενημερώνεται για το ραντεβού και ενημερώνει αντιστοίχως και τη διαθεσιμότητα.
-  8. Η εφαρμογή του συνεργείου ειδοποιείται σχετικά με το ραντεβού και αποστέλλεται email ενημέρωσης στον χρήστη.
+  8. Η εφαρμογή του συνεργείου ειδοποιείται σχετικά με το ραντεβού και αποστέλλεται email ενημέρωσης στον χρήστη.  
  <img src="https://user-images.githubusercontent.com/51947061/166802545-b7cba3f1-ace7-4903-bcbb-180079d0aad4.png" width="250"/> <img src="https://user-images.githubusercontent.com/51947061/166802573-16bd3464-5477-4ffc-9207-12b90d5ed519.png" width="250"/> <img src="https://user-images.githubusercontent.com/51947061/166802595-731841a1-a604-4146-9966-66581d44c5e0.png" width="250"/> <img src="https://user-images.githubusercontent.com/51947061/166802618-41fa29f6-e04f-493b-a95c-1317719616ea.png" width="250"/>
 
 
@@ -104,7 +104,7 @@
 
 
 ### Robustness
-![Rob-4](https://user-images.githubusercontent.com/51947061/169580637-185a023c-17d5-43cc-8a1e-e79f0a404cf7.png)
+<img src="https://user-images.githubusercontent.com/51947061/169580637-185a023c-17d5-43cc-8a1e-e79f0a404cf7.png" width="1200"/>
 
 ### Sequence Diagram
 ![image](https://user-images.githubusercontent.com/51947061/169591233-b0f961c2-8660-4eeb-8208-7c87245eb8c7.png)
@@ -137,7 +137,7 @@
 
 
 ### Robustness
-![Rob-5](https://user-images.githubusercontent.com/51947061/169580673-55aab6c4-90f5-4501-9357-c15d8daa3ade.png)
+<img src="https://user-images.githubusercontent.com/51947061/169580673-55aab6c4-90f5-4501-9357-c15d8daa3ade.png" width="1200"/>
 
 
 ### Use case #6 - Add new Car/Client
