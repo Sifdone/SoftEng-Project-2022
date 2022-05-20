@@ -1,4 +1,4 @@
-# Use Cases v0.2
+# Use Cases v0.3
 
 Σημειωση: Σαν ομαδα θεωρουμε οτι το UI ειναι αναποσπαστο κομματι απο μια συγχρονη εφαρμογη.  
 Ειδικα οσον αφορα την εφαρμογη του πελατη πιστευουμε πως το UI ειναι πολυ σημαντικο, σχεδιαζεται  
@@ -107,6 +107,10 @@
     2. Ο χρηστης επιλεγει “Update Progress”
     3. Οδηγειται στο Use Case #7  
     <img src="https://user-images.githubusercontent.com/51947061/166803558-1bdacf4a-523b-4b94-9e80-163ad0f30e88.png" width="600"/>
+    <img src="[https://user-images.githubusercontent.com/51947061/169578843-570d04ad-32c5-46f4-9030-2e75aee45a45.png]"/>  
+    ![image](https://user-images.githubusercontent.com/51947061/169579211-02537533-a034-4fe0-9fcf-b2c9a587e2b8.png)
+
+
 
 
 ### Use case #6 - Add new Car/Client
