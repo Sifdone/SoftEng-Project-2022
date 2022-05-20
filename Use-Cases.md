@@ -19,21 +19,24 @@
   1. Το συσστημα εμφανιζει περιληπτικα την προοδο καθως και την αναμενωμενη μερα ολοκληρωσης της επισκευης
   2. Ο χρηστης επιλεγει "Progress Details"
   3. Το συστημα παρουσιαζει αναλυτικα την μεχρι τωρα πορεια της επισκευης  
-  <img src="https://user-images.githubusercontent.com/51947061/166654364-7fe755dc-34d1-4b0e-99c8-e76178b94f14.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166654965-6c794828-82d9-49c4-832b-7f769a9f9c98.png" width="300"/>  
+  <img src="https://user-images.githubusercontent.com/51947061/166654364-7fe755dc-34d1-4b0e-99c8-e76178b94f14.png" width="250"/> <img src="https://user-images.githubusercontent.com/51947061/166654965-6c794828-82d9-49c4-832b-7f769a9f9c98.png" width="250"/>  
 * Εναλλακτικη Ροη 2 - Προβλημα κατα την επισκευη
   1. Η εφαρμογη εμφανιζει περιληπτικα την προοδο, την αναμενωμενη μερα ολοκληρωσης της επισκευης και το προβλημα που εχει προκυψει
   2. Ο χρηστης επιλεγει "Progress Details"
   3. Το συστημα παρουσιαζει αναλυτικα την μεχρι τωρα πορεια της επισκευης, το προβλημα που εχει προκυψει και την επιλογη "Contact"
   4. Ο χρηστης επιλεγει "Contact" και οδηγειται στο Use Case #2  
-  <img src="https://user-images.githubusercontent.com/51947061/166655469-7f391e60-fce3-4619-b076-c1a6a3916934.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166656258-94a273bc-7f71-445a-8cb0-e0411c1a06d8.png" width="300"/>  
-
-
+  <img src="https://user-images.githubusercontent.com/51947061/166655469-7f391e60-fce3-4619-b076-c1a6a3916934.png" width="250"/> <img src="https://user-images.githubusercontent.com/51947061/166656258-94a273bc-7f71-445a-8cb0-e0411c1a06d8.png" width="250"/>  
+  
 * Εναλλακτικη Ροη 3 - Η επισκευη εχει ολοκληρωθει
   1. Η εφαρμογη ενημερωνει για την ολοκληρωση της επισκευης και για το κοστος της  
   2. Ο χρηστης επιλεγει "Repair Details"
   3. Το συστημα παρουσιαζει τις λεπτομερειες της επισκευης και την αναλυση του κοστους  
-   <img src="https://user-images.githubusercontent.com/51947061/166659155-a16999f9-aa36-46df-9c69-6f7728b2c1dc.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166659131-d4b9e305-7463-4e60-a92d-e7fcb90c2dc0.png" width="300"/>
+  <img src="https://user-images.githubusercontent.com/51947061/166659155-a16999f9-aa36-46df-9c69-6f7728b2c1dc.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166659131-d4b9e305-7463-4e60-a92d-e7fcb90c2dc0.png" width="300"/>
 
+
+
+### Robustness
+![Rob-1](https://user-images.githubusercontent.com/51947061/169580068-9ca19d0c-bcf9-4d64-bf6d-466de833c0a5.png)
 
 ### Use case #2 - Contact the Repair Shop  
 
@@ -42,10 +45,14 @@
   2. Η εφαρμογή ελέγχει μέρα και ώρα και αν είναι εντός των εργασιών δίνει την επιλογή στον χρήστη να καλέσει το κατάστημα.
       * Εναλακτικη Ροη 1
         1. Ο χρηστης επιλεγει να καλεσει το καταστημα και οδηγειται στην εφαρμογη τηλεφωνου της συσκευης του.  
-        <img src="https://user-images.githubusercontent.com/51947061/166663217-5728262e-7a95-4356-ad35-e21aed4b34c3.png" width="300"/>  
+        <img src="https://user-images.githubusercontent.com/51947061/166663217-5728262e-7a95-4356-ad35-e21aed4b34c3.png" width="250"/>  
   4. O χρηστης μπορει να δει τις υπόλοιπες πληροφορίες του καταστήματος(τις ώρες λειτουργίας,το email,και τη διεύθυνση)
   5. Ο χρηστης επιλεγει απο τις πληροφοριες και οδηγειται την αντίστοιχη εφαρμογή Email ή Maps.
-    <img src="https://user-images.githubusercontent.com/51947061/166663324-93e8264a-672a-4d90-8cd7-67d5ffabc6a4.png" width="300"/>  
+  <img src="https://user-images.githubusercontent.com/51947061/166663324-93e8264a-672a-4d90-8cd7-67d5ffabc6a4.png" width="250"/>  
+
+### Robustness
+
+![Rob-2](https://user-images.githubusercontent.com/51947061/169580509-f5ffeba6-d09e-476f-bb5d-324002f0aeb2.png)
 
 
 ### Use case #3 - See History of repairs
@@ -57,7 +64,13 @@
   4. Το συστημα εμφανιζει περισσότερες πληροφορίες καθώς την επιλογή “Download Invoice”.
   5. Ο χρηστης επιλεγει "Download Invoice"
   6. Ο χρηστης επιλεγει που θελει να αποθηκευσει την αποδειξη  
-  <img src="https://user-images.githubusercontent.com/51947061/166664391-42264d51-4b22-4990-83f3-26ed935ee368.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166664404-77bcd9d4-b875-4eb7-aa19-cfe8c8e63d89.png" width="300"/>
+  <img src="https://user-images.githubusercontent.com/51947061/166664391-42264d51-4b22-4990-83f3-26ed935ee368.png" width="250"/> <img src="https://user-images.githubusercontent.com/51947061/166664404-77bcd9d4-b875-4eb7-aa19-cfe8c8e63d89.png" width="250"/>
+
+
+### Robustness
+
+![Rob-3](https://user-images.githubusercontent.com/51947061/169580590-89b7b168-24aa-4f96-bfe3-3bba7cc2a5f7.png)
+
 
 ### Use case #4 - Schedule Repair
 >Το οχημα του χρηστη δεν βρισκεται για επισκευη
@@ -72,7 +85,7 @@
   6. Ο χρήστης οδηγείται στην οθόνη επικύρωσης του ραντεβού και επικυρωνει
   7. Το σύστημα ενημερώνεται για το ραντεβού και ενημερώνει αντιστοίχως και τη διαθεσιμότητα.
   8. Η εφαρμογή του συνεργείου ειδοποιείται σχετικά με το ραντεβού και αποστέλλεται email ενημέρωσης στον χρήστη.
- <img src="https://user-images.githubusercontent.com/51947061/166802545-b7cba3f1-ace7-4903-bcbb-180079d0aad4.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166802573-16bd3464-5477-4ffc-9207-12b90d5ed519.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166802595-731841a1-a604-4146-9966-66581d44c5e0.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166802618-41fa29f6-e04f-493b-a95c-1317719616ea.png" width="300"/>
+ <img src="https://user-images.githubusercontent.com/51947061/166802545-b7cba3f1-ace7-4903-bcbb-180079d0aad4.png" width="250"/> <img src="https://user-images.githubusercontent.com/51947061/166802573-16bd3464-5477-4ffc-9207-12b90d5ed519.png" width="250"/> <img src="https://user-images.githubusercontent.com/51947061/166802595-731841a1-a604-4146-9966-66581d44c5e0.png" width="250"/> <img src="https://user-images.githubusercontent.com/51947061/166802618-41fa29f6-e04f-493b-a95c-1317719616ea.png" width="250"/>
 
 
 * Εναλλακτική Ροή 1 - Επιλογη διαφορετικου μηνα
@@ -82,6 +95,11 @@
 * Εναλλακτική Ροή 2 - Μη επικυρωση - Επιλογη διαφορετικης Ημερομηνιας
   1. Στο 6 τις Βασικης Ροης ο χρηστης δεν επικυρωνει αλλα επιλεγει "Select another date"
   2. Επιστρεφει στο 4 της Βασικης Ροης
+
+
+### Robustness
+![Rob-4](https://user-images.githubusercontent.com/51947061/169580637-185a023c-17d5-43cc-8a1e-e79f0a404cf7.png)
+
 
 ### Use case #5 - Client details database
 >Στη desktop εφαρμογη του Repair Shop - Ο υπαλληλος-γραμματεας θα αναφέρεται ως “χρηστης” 
@@ -107,10 +125,11 @@
     2. Ο χρηστης επιλεγει “Update Progress”
     3. Οδηγειται στο Use Case #7  
     <img src="https://user-images.githubusercontent.com/51947061/166803558-1bdacf4a-523b-4b94-9e80-163ad0f30e88.png" width="600"/>
-    <img src="[https://user-images.githubusercontent.com/51947061/169578843-570d04ad-32c5-46f4-9030-2e75aee45a45.png]"/>  
-    ![image](https://user-images.githubusercontent.com/51947061/169579211-02537533-a034-4fe0-9fcf-b2c9a587e2b8.png)
+    
 
 
+### Robustness
+![Rob-5](https://user-images.githubusercontent.com/51947061/169580673-55aab6c4-90f5-4501-9357-c15d8daa3ade.png)
 
 
 ### Use case #6 - Add new Car/Client
@@ -131,6 +150,10 @@
   4. Το συστημα αποθηκεύει τα στοιχεια και ενημερωνει το προφιλ του πελάτη ο οποιος θα εχει πλεον προσβαση και στα δυο οχηματα απο την εφαρμογη
   5. Το συστημα δημιουργει ενα QR code για το οχημα και δινει εντολη εκτυπωσης στην συσκευη εκτυπωσης ετικετων QR
 
+### Robustness
+
+![Rob-6](https://user-images.githubusercontent.com/51947061/169580932-8f1e01ce-d297-4ccc-90b8-b59aa33bbada.png)
+
 
 ### Use case #7 - Update Service Progress
 Στην του Mobile Εφαρμογη του Repair Shop - Ο υπαλληλος-τεχνικος θα αναφέρεται ως “χρηστης”
@@ -138,15 +161,21 @@
 * Βασική Ροη
   1. Ο χρηστης επιλεγει “Update Service Progress”
   2. Η εφαρμογη εμφανιζει ενα QR code scanner με το οποιο ο χρηστης σκανάρει το QR αυτοκολλητο πανω στο αμαξι το οποιο επισκευαζει
-  3. Ο χρηστης εισαγει την επιθυμητη ενημερωση ειτε επιλεγοντας απο καποιες προεπιλογες ειτε χειροκινητα
-  4. Το συστημα αποθηκεύει την ενημερωση και στελνει ενημερωση στον πελατη
+  3. Ο χρηστης εισαγει την επιθυμητη ενημερωση
+  4. Το συστημα αποθηκεύει την ενημερωση και στελνει notification στον πελατη
   
 * Εναλακτικη Ροη  
   1. Στο 2 της βασικης ροης (σε περιπτωση που το αυτοκολλητο ειναι φθαρμενο η ο χρηστης εχει απομακρυνθει απο το οχημα)  
      Επιλεγει “Select Manually” και επιλεγει μεσα απο την λιστα των οχηματων υπο επισκευη
   2. Οδηγειται στο 3 της Βασικης Ροής
 
+### Robustness
+
+![Rob-7](https://user-images.githubusercontent.com/51947061/169590103-2ed72686-2ae4-4465-b296-01a2b3795f89.png)
+
+
 ### Use case #8- New notification campaign
+
 Στην Desκtop Εφαρμογη του Repair Shop - Ο υπαλληλος-τεχνικος θα αναφέρεται ως “χρηστης” 
 * Βασική Ροη
   1. Ο χρηστης επιλεγει “New Campaign”
@@ -156,7 +185,10 @@
   5. Εισαγει το κειμενο της ειδοποιησης και παταει επιλεγει αν θελει να αποσταλούν εκεινη τη στιγμη η καποια αλλη την οποια και επιλεγει
   6. Το συστημα αναλογα τις επιλογες στελνει τις ειδοποιήσεις στους πελατες
 
-  
+### Robustness
+
+![Rob-8](https://user-images.githubusercontent.com/51947061/169590164-67b99a42-1732-475d-ab6c-f62af27a138f.png)
+
   
   
     
