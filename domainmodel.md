@@ -11,12 +11,11 @@
 #### State: Είναι η κατάσταση που βρίσκεται κάθε εργασία (operation) με id = operationId και έχει τις μεταβλητές αναμενόμενος χρόνος (estimated time), περιγραφή (description) και πρόοδος (progress). Κάθε κατάσταση αντιστοιχεί σε μια μοναδική εργασία
 #### Campaign: Είναι η περίπτωση που θέλουμε να ενημερώσουμε τους χρήστες με ένα notification με συγκεκριμένο type σε συγκεκριμένους χρήστες.
 
-![alt text](https://drive.google.com/file/d/14ZSMH05vFM2k7J1OHJ0Oql7tpzc-HMKK/view?usp=sharing)
-
 #### Methods: 
 #### Campaign Methods : sendCampaign() στέλνει το notificationText με συγκεκριμένο notificationType σε όλους τους χρήστες που βρίσκονται στο customersList.
 #### changeTime() αλλάζει το deliveryTime δηλαδή την ώρα που θα παραδωθεί το Notification στους χρήστες(customers)
 #### Company Methods: getName(),getAfm(),getAddress() επιστρέφει τα συγκεκρίμενα attributes από το Company
 #### getDirections() επιστρέφει ένα link με την τοποθεσία του καταστήματος στο Google Maps
 #### getAllCustomers() επιστρέφει όλους τους πελάτες από την εταιρία 
-#### Customer Methods: changeName() αλλάζει το όνομα του πελάτη
+#### Customer Methods: changeName() αλλάζει το όνομα του πελάτη  
+![image](https://user-images.githubusercontent.com/51947061/169593434-bf81aaa7-25b0-4dbe-804b-03b6a9561de3.png)
