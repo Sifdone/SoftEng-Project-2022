@@ -9,5 +9,14 @@
 #### Appointment: Οντότητα που περιγράφει ένα ραντεβού με έναν πελάτη με id = customerId που πιθανώς μπορεί να είναι για κάποια εργασία με id = operationId. Έχει τις μεταβλητές ημερομηνία (date) και διάρκεια (length)
 #### Agenda: Οντότητα που περιγράφη το ημερολόγιο της εταιρίας και περιέχει όλα τα ραντεβού (agenda) και έχει τις μεταβλητές ώρες εργασίας (working hours) και ώρες αχμής (busy hours)
 #### State: Είναι η κατάσταση που βρίσκεται κάθε εργασία (operation) με id = operationId και έχει τις μεταβλητές αναμενόμενος χρόνος (estimated time), περιγραφή (description) και πρόοδος (progress). Κάθε κατάσταση αντιστοιχεί σε μια μοναδική εργασία
+#### Campaign: Είναι η περίπτωση που θέλουμε να ενημερώσουμε τους χρήστες με ένα notification με συγκεκριμένο type σε συγκεκριμένους χρήστες.
 
-![alt text](https://github.com/Sifdone/SoftEng-Project-2022-AutoSupport/blob/main/domainmodelDiagram.png?raw=true)
+![alt text](https://drive.google.com/file/d/14ZSMH05vFM2k7J1OHJ0Oql7tpzc-HMKK/view?usp=sharing)
+
+#### Methods: 
+#### Campaign Methods : sendCampaign() στέλνει το notificationText με συγκεκριμένο notificationType σε όλους τους χρήστες που βρίσκονται στο customersList.
+#### changeTime() αλλάζει το deliveryTime δηλαδή την ώρα που θα παραδωθεί το Notification στους χρήστες(customers)
+#### Company Methods: getName(),getAfm(),getAddress() επιστρέφει τα συγκεκρίμενα attributes από το Company
+#### getDirections() επιστρέφει ένα link με την τοποθεσία του καταστήματος στο Google Maps
+#### getAllCustomers() επιστρέφει όλους τους πελάτες από την εταιρία 
+#### Customer Methods: changeName() αλλάζει το όνομα του πελάτη
