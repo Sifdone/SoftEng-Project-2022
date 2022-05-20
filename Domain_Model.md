@@ -11,13 +11,22 @@
 #### State: Είναι η κατάσταση που βρίσκεται κάθε εργασία (operation) με id = operationId και έχει τις μεταβλητές αναμενόμενος χρόνος (estimated time), περιγραφή (description) και πρόοδος (progress). Κάθε κατάσταση αντιστοιχεί σε μια μοναδική εργασία
 #### Campaign: Είναι η περίπτωση που θέλουμε να ενημερώσουμε τους χρήστες με ένα notification με συγκεκριμένο type σε συγκεκριμένους χρήστες.
 
-#### Methods: 
+# Methods: 
+---
 #### Campaign Methods : sendCampaign() στέλνει το notificationText με συγκεκριμένο notificationType σε όλους τους χρήστες που βρίσκονται στο customersList.
 #### changeTime() αλλάζει το deliveryTime δηλαδή την ώρα που θα παραδωθεί το Notification στους χρήστες(customers)
-#### Company Methods: getName(),getAfm(),getAddress() επιστρέφει τα συγκεκρίμενα attributes από το Company
-#### getDirections() επιστρέφει ένα link με την τοποθεσία του καταστήματος στο Google Maps
-#### getAllCustomers() επιστρέφει όλους τους πελάτες από την εταιρία 
-#### Customer Methods: changeName() αλλάζει το όνομα του πελάτη , addCar() προσθέτει αυτοκίνητο στον customer
-#### Agenda Methods: getCalendar() επιστρέφει όλα τα προγραμματισμένα ραντεβού(Appointment), updateBusyHours() ανανεώνει τα BusyHours
-#### Appointment Methods: changeDate() αλλάζει την ημερομηνία ενός Appointment, updateAgenda() περνάει τα ραντεβού στην Agenda, getAppointment() επιστρέφει τα δεδομένα του Appointment
+#### Company Methods: getName(),getAfm(),getAddress() επιστρέφει τα συγκεκρίμενα attributes από το Company, getDirections() επιστρέφει ένα link με την τοποθεσία του καταστήματος στο Google Maps, getAllCustomers() επιστρέφει όλους τους πελάτες από την εταιρία. 
+#### Customer Methods: changeName() αλλάζει το όνομα του πελάτη , addCar() προσθέτει αυτοκίνητο στον customer.
+#### Agenda Methods: getCalendar() επιστρέφει όλα τα προγραμματισμένα ραντεβού(Appointment), updateBusyHours() ανανεώνει τα BusyHours.
+#### Appointment Methods: changeDate() αλλάζει την ημερομηνία ενός Appointment, updateAgenda() περνάει τα ραντεβού στην Agenda, getAppointment() επιστρέφει τα δεδομένα του Appointment.
+#### Operation Methods: getDelay(),getDescription(),getCost(),getType(),getCarDetails() επιστρέφει τις αντίστοιχες μεταβλητές
+#### State Methods: getProgress(),getDescription() επιστρέφει τις αντίστοιχες μεταβλητές.
+#### Vehicle Methods: getHistory() επιστρέφει το τελευταίο operation του vehicle , getCarDetails() επιστρέφει όλα τα δεδομένα για το Vehicle, createQR() δημιουργεί QR code για το id του Vehicle, getService() επιστρέφει την ημερομηνία και τα δεδομένα του τελευταίου σέρβις.
+# Screens: 
+---
+#### Main Screen : displayLastService() επιστρέφει την οθόνη με τα δεδόμενα του τελευταίου service , displayScedule() επιστρέφει την οθόνη με το Schedule
+#### Progress Details: displayProgress() επιστρέφει τα δεδόμενα απο το State του Operation , refreshUI() ανανεώνει με τα καινούργια δεδομένα απο το state, displayFullInfo() επιστρέφει την οθόνη με όλες τις πληροφορίες απο ένα Operation , displayContact() εμφανίζει την οθόνη με τις πληροφορίες του Company.
+#### History Screen: displayInfo(download) Επιστρέφει την οθόνη με το ιστορίκο του Vehicle με την επιλογή του download
+#### Contact Us: display(call) εμφανίζει την οθόνη με τις πληροφορίες με την επιλογή του call(), getInfo() παίρνει τα δεδόμενα απο το Company
+#### Schedule Now: checkTime() τσεκάρει αν υπάρχει διαθέσιμη ώρα για Appointment, displaySchedule() εμφανίζει τα δεδόμενα του Appointment που δημιουργήθηκε.
 ![image](https://user-images.githubusercontent.com/51947061/169593434-bf81aaa7-25b0-4dbe-804b-03b6a9561de3.png)
