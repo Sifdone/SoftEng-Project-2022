@@ -17,5 +17,7 @@
 #### Company Methods: getName(),getAfm(),getAddress() επιστρέφει τα συγκεκρίμενα attributes από το Company
 #### getDirections() επιστρέφει ένα link με την τοποθεσία του καταστήματος στο Google Maps
 #### getAllCustomers() επιστρέφει όλους τους πελάτες από την εταιρία 
-#### Customer Methods: changeName() αλλάζει το όνομα του πελάτη  
+#### Customer Methods: changeName() αλλάζει το όνομα του πελάτη , addCar() προσθέτει αυτοκίνητο στον customer
+#### Agenda Methods: getCalendar() επιστρέφει όλα τα προγραμματισμένα ραντεβού(Appointment), updateBusyHours() ανανεώνει τα BusyHours
+#### Appointment Methods: changeDate() αλλάζει την ημερομηνία ενός Appointment, updateAgenda() περνάει τα ραντεβού στην Agenda, getAppointment() επιστρέφει τα δεδομένα του Appointment
 ![image](https://user-images.githubusercontent.com/51947061/169593434-bf81aaa7-25b0-4dbe-804b-03b6a9561de3.png)
