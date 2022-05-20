@@ -1,5 +1,5 @@
 # Use Cases v0.3
-
+>Τα sequence diagrams που εχουν γινει ειναι προχειρα και θα βελτιωθουν στο επομενο παραδοτεο. 
 Σημειωση: Σαν ομαδα θεωρουμε οτι το UI ειναι αναποσπαστο κομματι απο μια συγχρονη εφαρμογη.  
 Ειδικα οσον αφορα την εφαρμογη του πελατη πιστευουμε πως το UI ειναι πολυ σημαντικο, σχεδιαζεται  
 παραλληλα με τις λειτουργιες και οχι σαν κατι το οποιο θα προστεθει και θα διαμορφωθει σε δευτερο χρονο  
@@ -54,6 +54,9 @@
 
 ![Rob-2](https://user-images.githubusercontent.com/51947061/169580509-f5ffeba6-d09e-476f-bb5d-324002f0aeb2.png)
 
+### Sequence Diagram
+![image](https://user-images.githubusercontent.com/51947061/169591043-daf5ac8f-b217-4920-ba3f-70b3f916815c.png)
+
 
 ### Use case #3 - See History of repairs
 
@@ -70,6 +73,9 @@
 ### Robustness
 
 ![Rob-3](https://user-images.githubusercontent.com/51947061/169580590-89b7b168-24aa-4f96-bfe3-3bba7cc2a5f7.png)
+
+### Sequence Diagram
+![image](https://user-images.githubusercontent.com/51947061/169591198-0ea635f3-5ee5-4c5e-abe7-9ea9a439a93a.png)
 
 
 ### Use case #4 - Schedule Repair
@@ -100,6 +106,8 @@
 ### Robustness
 ![Rob-4](https://user-images.githubusercontent.com/51947061/169580637-185a023c-17d5-43cc-8a1e-e79f0a404cf7.png)
 
+### Sequence Diagram
+![image](https://user-images.githubusercontent.com/51947061/169591233-b0f961c2-8660-4eeb-8208-7c87245eb8c7.png)
 
 ### Use case #5 - Client details database
 >Στη desktop εφαρμογη του Repair Shop - Ο υπαλληλος-γραμματεας θα αναφέρεται ως “χρηστης” 
