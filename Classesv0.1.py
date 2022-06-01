@@ -46,21 +46,21 @@ class Campaign(object):
             
 class Appointment(object):
     next_id = 0 
-    calendar =[]
+  
     def __init__(self,date,customerId,operationId,length):
         self.date = date
         self.customerId = Customer.id
         self.operationId = Operation.id
         self.length = length
-        self.calenddar.append(self.date)
         self.id = Appointment.next_id
         Appointment.next_id += 1
-        
+        updateAgenda()
         def changeDate(self,newdate):
             self.date = newdate
-        def updateAgenda():
+        def updateAgenda(self):
+            Agenda.calenddar.append(self.date)
         def getAppointment():
-
+            return Appointment()
 class Operation(object):
     next_id = 0
     def __init__(self,cost,description,carId,delay,date):
@@ -72,11 +72,17 @@ class Operation(object):
         self.id =  Operation.next_id
         Operation.next_id += 1
         
-        def getDelay():
-        def getCost():
-        def getDescription():
-        def getType():
-        def getCarDetails():
+        def getDelay(self):
+            return self.delay
+        def getCost(self):
+            return self.cost
+        def getDescription(self):
+            return self.description
+        def getType(self):
+            return self.type
+        def getCarDetails(self):
+            if Vehicle.id == self.carId:
+               return dir(Vehicle)
 class State(object):
     def __init__(self,progress,estimatedTime,description,operationId):
         self.progress= progress
@@ -84,21 +90,21 @@ class State(object):
         self.description = description
         self.operationId = Operation.id
         
-        def getProgress():
-    
-        def getDescription():
-            
+        def getProgress(self):
+            return self.progress
+        def getDescription(self):
+            return self.description
             
 class Customer(object):
     next_id = 0
-    def __init__(self,name,address,phone) 
+    def __init__(self,name,address,phone) :
         self.name = name
         self.address = address
         self.phone = phone
         self.id = Customer.next_id
         Customer.next_id +=1
-    def changeName():
-        
+    def changeName(self,newname):
+        self.name = newname
     def addCar():
         
         
@@ -124,6 +130,7 @@ class Vehicle(object):
         
 
 class Agenda(object):
+    calendar =[]
     def __init__(self,workingHours,busyHours):
         self.workingHours =workingHours
         self.busyHours = busyHours
