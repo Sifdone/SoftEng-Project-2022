@@ -51,6 +51,7 @@
   5. O χρήστης μπορεί να μετακινήθει σε άλλες σελίδες της εφαρμογής (History, My Car) πατώντας τα αντίστοιχα κουμπία.
 <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/rob2.png" width="600"/>
      <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/seq2.png" width="600"/>
+     
 ### Use case #3 - See History of repairs
 
 - Βασική Ροη
@@ -76,6 +77,7 @@
   9. Το σύστημα επανέρχεται στην οθόνη repair history
 <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/rob3.png" width="600"/>
      <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/se3.png" width="600"/>
+     
 ### Use case #4 - Schedule Repair
 
 - Βασική Ροη
@@ -123,6 +125,7 @@
     1. Η εφαρμογη ενημερωνεται απο το συστημα και εμφανίζει αναλυτικο ιστορικο των επισκευων του οχηματος  
      <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/rob5.png" width="600"/>
      <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/seq5.png" width="600"/>
+     
 ### Use case #6 - Add new Car/Client
 
 - Βασική Ροη
