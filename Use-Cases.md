@@ -34,8 +34,7 @@
   2. Ο χρηστης επιλεγει "Repair Details"
   3. Το συστημα παρουσιαζει τις λεπτομερειες της επισκευης και την αναλυση του κοστους  
      <img src="https://user-images.githubusercontent.com/51947061/166659155-a16999f9-aa36-46df-9c69-6f7728b2c1dc.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166659131-d4b9e305-7463-4e60-a92d-e7fcb90c2dc0.png" width="300"/>
-    
- <img src="https://user-images.githubusercontent.com/51947061/166659131-d4b9e305-7463-4e60-a92d-e7fcb90c2dc0.png" width="300"/>
+ 
 
 ### Use case #2 - Contact the Repair Shop
 
