@@ -35,6 +35,7 @@
   3. Το συστημα παρουσιαζει τις λεπτομερειες της επισκευης και την αναλυση του κοστους  
      <img src="https://user-images.githubusercontent.com/51947061/166659155-a16999f9-aa36-46df-9c69-6f7728b2c1dc.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166659131-d4b9e305-7463-4e60-a92d-e7fcb90c2dc0.png" width="300"/>
      <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/rob1.png" width="600"/>
+     <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/seq1.png" width="600"/>
 
 ### Use case #2 - Contact the Repair Shop
 
@@ -48,7 +49,8 @@
   4. Ο χρηστης επιλεγει απο τις πληροφοριες πατώντας το αντίστοιχο κουμπί (email,directions) και οδηγειται την αντίστοιχη εφαρμογή Email ή Maps.
      <img src="https://user-images.githubusercontent.com/51947061/166663324-93e8264a-672a-4d90-8cd7-67d5ffabc6a4.png" width="300"/>
   5. O χρήστης μπορεί να μετακινήθει σε άλλες σελίδες της εφαρμογής (History, My Car) πατώντας τα αντίστοιχα κουμπία.
-
+<img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/rob2.png" width="600"/>
+     <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/seq2.png" width="600"/>
 ### Use case #3 - See History of repairs
 
 - Βασική Ροη
@@ -72,32 +74,9 @@
   7. Το σύστημα εμφανίζει στην οθόνη τις διαθέσιμες επιλογές αποθήκευσης στη συσκευή του χρήστη
   8. Ο χρήστης επιλέγει να αποθηκευτεί στον αποθηκευτικό χώρο της συσκευής
   9. Το σύστημα επανέρχεται στην οθόνη repair history
-
+<img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/rob3.png" width="600"/>
+     <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/se3.png" width="600"/>
 ### Use case #4 - Schedule Repair
-
-> Το οχημα του χρηστη δεν βρισκεται για επισκευη
-
-- Βασική Ροη
-
-  1. Η εφαρμογη ενημερωνεται για το ποτε εγινε η τελευταια επισκευη και υπολογιζει τον προτεινομενο μηνα για το επομενο τακτικο σερβις.
-  2. Σην κεντρικη οθονη η εφαρμογή εμφανίζει τα παρπανω καθώς και την επιλογή “Schedule Now”.
-  3. Ο χρήστης επιλέγει “Schedule Now”
-  4. Η εφαρμογή εμφανίζει την οθόνη “Schedule” με προεπιλογη τον προτεινομενο μηνα, ενημερωνεται για της μερες του μηνα στις οποιες  
-     δεν υπαρχει δυνατοτητα ραντεβου και τις κανει μη επιλεξιμες
-  5. Ο χρήστης επιλέγει ημερομηνία από τις διαθέσιμες και επιλεγει "Schedule"
-  6. Ο χρήστης οδηγείται στην οθόνη επικύρωσης του ραντεβού και επικυρωνει
-  7. Το σύστημα ενημερώνεται για το ραντεβού και ενημερώνει αντιστοίχως και τη διαθεσιμότητα.
-  8. Η εφαρμογή του συνεργείου ειδοποιείται σχετικά με το ραντεβού και αποστέλλεται email ενημέρωσης στον χρήστη.
-
-- Εναλλακτική Ροή 1 - Επιλογη διαφορετικου μηνα
-  1. Μετα το 4 της Βασικης ροης ο χρηστης επιλεγει διαφορετικο μηνα
-  2. Η εφαρμογη ενημερωνεται για της μερες του μηνα στις οποιες δεν υπαρχει δυνατοτητα ραντεβου και τις κανει μη επιλεξιμες
-  3. Επιστρεφει στο 5 της Βασικης Ροης
-- Εναλλακτική Ροή 2 - Μη επικυρωση - Επιλογη διαφορετικης Ημερομηνιας
-
-  1. Στο 6 τις Βασικης Ροης ο χρηστης δεν επικυρωνει αλλα επιλεγει "Select another date"
-  2. Επιστρεφει στο 4 της Βασικης Ροης
-     UPDATED
 
 - Βασική Ροη
   Το Ι.Χ του χρήστη δεν βρίσκεται σε κατάσταση επισκευής
@@ -122,6 +101,8 @@
 - Εναλλακτική Ροή 2 - Μη επικύρωση - Επιλογή διαφορετικής Ημερομηνίας
   1. Στο 6 τις Βασικής Ροής ο χρήστης δεν επικυρώνει "Confirm" αλλά επιλέγει "Select another date"
   2. Το σύστημα επανέρχεται στο βήμα 4 της Βασικής ροής
+  <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/rob4.png" width="600"/>
+     <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/seq4.png" width="600"/>
 
 ### Use case #5 - Client details database
 
@@ -140,7 +121,8 @@
 
   * Εναλλακτική Ροή 2 - Ο χρηστης επιλεγει “Repair History” ενος οχηματος
     1. Η εφαρμογη ενημερωνεται απο το συστημα και εμφανίζει αναλυτικο ιστορικο των επισκευων του οχηματος  
-
+     <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/rob5.png" width="600"/>
+     <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/seq5.png" width="600"/>
 ### Use case #6 - Add new Car/Client
 
 - Βασική Ροη
@@ -162,7 +144,8 @@
   4. Το σύστημα αποθηκεύει τα στοιχεία του νέου όχηματος και ενημερώνει το προφίλ του αντίστοιχου πελάτη στη βάση δεδομένων.
   5. Το σύστημα δημιουργεί ένα μοναδικό QR code για το όχημα και εκδίδει εντολή εκτύπωσης της ετικέτας QR σε μια συσκευή εκτύπωσης ετικετών QR.
   6. Η εφαρμογή εμφανίζει ένα μήνυμα επιτυχίας στον χρήστη, επιβεβαιώνοντας ότι το όχημα προστέθηκε με επιτυχία στο προφίλ του πελάτη.
-
+<img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/rob6.png" width="600"/>
+     
 ### Use case #7 - Update Service Progress
 
 Στην του Mobile Εφαρμογη του Repair Shop - Ο υπαλληλος-τεχνικος θα αναφέρεται ως “χρηστης”
@@ -185,6 +168,8 @@
 2. Η εφαρμογή εμφανίζει μια λίστα με τα αυτοκίνητα που βρίσκονται υπό επισκευή.
 3. Ο χρήστης επιλέγει το αντίστοιχο αυτοκίνητο από τη λίστα.
 4. Η εφαρμογή προχωρά στο βήμα 5 της βασικής ροής και συνεχίζει από εκεί κανονικά.
+
+<img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/rob7.png" width="600"/>
 
 ### Use case #8- New notification campaign
 
@@ -211,3 +196,4 @@
 
   1. Στο 4 της βασικής ροής ο χρήστης επιλέγει να διαλέξει όλους τους πελάτες.
   2. Η ροη συνεχίζεται απο την βασική ροή στο 5.
+<img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/rob8.png" width="600"/>
