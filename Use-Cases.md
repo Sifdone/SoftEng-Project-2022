@@ -67,6 +67,7 @@
     ix.Το σύστημα εμφανίζει στην οθόνη τις διαθέσιμες επιλογές αποθήκευσης στη συσκευή του χρήστη  
     x.Ο χρήστης επιλέγει να αποθηκευτεί στον αποθηκευτικό χώρο της συσκευής  
     xi.Το σύστημα επανέρχεται στην οθόνη repair history 
+    
 <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/rob3.png" width="600"/>
      <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/se3.png" width="600"/>
      
