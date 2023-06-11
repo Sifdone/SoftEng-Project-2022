@@ -47,8 +47,8 @@
      
   5. O χρήστης μπορεί να μετακινήθει σε άλλες σελίδες της εφαρμογής (History, My Car) πατώντας τα αντίστοιχα κουμπία.
 
-<img src="https://user-images.githubusercontent.com/51947061/166663324-93e8264a-672a-4d90-8cd7-67d5ffabc6a4.png" width="300"/>
-<img src="https://user-images.githubusercontent.com/51947061/166663217-5728262e-7a95-4356-ad35-e21aed4b34c3.png" width="300"/>
+<img src="https://user-images.githubusercontent.com/51947061/166663324-93e8264a-672a-4d90-8cd7-67d5ffabc6a4.png" width="300"/><img src="https://user-images.githubusercontent.com/51947061/166663217-5728262e-7a95-4356-ad35-e21aed4b34c3.png" width="300"/>
+
 <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/new_rob2.png" width="600"/>
      <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/new_seq2.png" width="600"/>
      
