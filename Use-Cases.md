@@ -32,6 +32,8 @@
   3. Το συστημα παρουσιαζει αναλυτικα την μεχρι τωρα πορεια της επισκευης, το προβλημα που εχει προκυψει και την επιλογη "Contact"
   4. Ο χρηστης επιλεγει "Contact" και οδηγειται στο Use Case #2  
      <img src="https://user-images.githubusercontent.com/51947061/166655469-7f391e60-fce3-4619-b076-c1a6a3916934.png" width="300"/> <img src="https://user-images.githubusercontent.com/51947061/166656258-94a273bc-7f71-445a-8cb0-e0411c1a06d8.png" width="300"/>
+<img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/Rob-1-update.png" width="600"/>
+     <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/seq1.png" width="600"/>
 
 ### Use case #2 - Contact the Repair Shop
 
