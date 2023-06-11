@@ -36,16 +36,17 @@
      <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/seq1.png" width="600"/>
 
 ### Use case #2 - Contact the Repair Shop
-
+<img src="https://user-images.githubusercontent.com/51947061/166663324-93e8264a-672a-4d90-8cd7-67d5ffabc6a4.png" width="300"/>
+<img src="https://user-images.githubusercontent.com/51947061/166663217-5728262e-7a95-4356-ad35-e21aed4b34c3.png" width="300"/>
 - Βασικη Ροη
   1. Το σύστημα ενημερώνει τις πληροφορίες επικοινωνίας από την βάση δεδομένων.
   2. Η εφαρμογή ελέγχει μέρα και ώρα από τα δεδομένα της συσκευής του χρήστη και αν είναι εντός των εργασιών δίνει την επιλογή στον χρήστη να καλέσει το κατάστημα.
      - Εναλακτικη Ροη 1
        1. Ο χρηστης επιλεγει να καλεσει το καταστημα πατώντας το κουμπί με τον αριθμό τηλεφώνου και οδηγείται στην εφαρμογή τηλεφώνου της συσκευής του.  
-          <img src="https://user-images.githubusercontent.com/51947061/166663217-5728262e-7a95-4356-ad35-e21aed4b34c3.png" width="300"/>
+          
   3. O χρηστης μπορει να δει τις υπόλοιπες πληροφορίες του καταστήματος(τις ώρες λειτουργίας,το email,και τη διεύθυνση)
   4. Ο χρηστης επιλεγει απο τις πληροφοριες πατώντας το αντίστοιχο κουμπί (email,directions) και οδηγειται την αντίστοιχη εφαρμογή Email ή Maps.
-     <img src="https://user-images.githubusercontent.com/51947061/166663324-93e8264a-672a-4d90-8cd7-67d5ffabc6a4.png" width="300"/>
+     
   5. O χρήστης μπορεί να μετακινήθει σε άλλες σελίδες της εφαρμογής (History, My Car) πατώντας τα αντίστοιχα κουμπία.
 <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/new_rob2.png" width="600"/>
      <img src="https://raw.githubusercontent.com/Sifdone/SoftEng-Project-2022-AutoSupport/main/diagrams/new_seq2.png" width="600"/>
